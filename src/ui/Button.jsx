@@ -66,7 +66,6 @@ const Button = styled.button`
 
   ${(props) =>
     !props.size &&
-    !props.variation &&
     css`
       ${sizes.medium};
     `}
